@@ -48,9 +48,9 @@ public class CarData extends AppCompatActivity implements View.OnClickListener {
             case R.id.addCar:
                String data = "\r\n" +
                        "\r\n" + detailsShow.getText() +
-                       "\r\n" +" The Vechile is Manufacture by "+ car.getMake() +
-                       "\r\n" + " Made Year: "+ car.getColor() +
-                       "\r\n" + "Car color: " + car.getYear() +
+                       "\r\n" +" The Vechile is Manufactured by "+ car.getMake() +
+                       "\r\n" + " Made Year: "+ car.getYear() +
+                       "\r\n" + "Car color: " + car.getColor() +
                        "\r\n" +  "Current value: "+ car.getPurchase() +
                        "\r\n" + "Engine per liter: " + car.getEngine() +
                        "\r\n";
